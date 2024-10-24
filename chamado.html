@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SS - Chamados</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme:{
+                extend:{
+                    colors:{
+                        azul:{
+                            claro:'#C5DFFF',
+                            escuro:'#051E3C',
+                            hover:'#1057B8'
+                        },
+                    },
+                    fontFamily:{
+                        inter:['Inter', 'sans-serif']
+                    },
+
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-azul-claro font-inter">
+<main class="bg-white flex justify-center">
+    <section class="bg-white font-inter">
+        <div class="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="grid justify-items-start relativeh-56 m-2.5 overflow-hidden font-inter rounded-md">
+                <img src="./img/gsuite.png">
+            </div>
+            <div class="bg-white p-4">
+                <h6 class="bg-white mb-2 text-slate-800 text-xl font-inter font-semibold">
+                    Abrir chamado - GSuite
+                </h6>
+                <p class="bg-white font-inter text-slate-600 leading-normal font-light">
+                    Se você estiver com dificuldade para acessar o pacote G-Suite por favor clique
+                    no link abaixo para ser direcionado para abertura de chamado!
+                </p>
+            </div>
+            <div class="font-inter px-4 pb-4 pt-0 mt-2">
+                <a href="gsuite.html" target="_blank" class="rounded-md bg-slate-800 py-2 px-4 border border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                    Abrir Chamado
+                </a>
+            </div>
+        </div>
+    </section>
+
+</main>
+</body>
