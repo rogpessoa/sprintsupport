@@ -40,23 +40,23 @@
     </script>
 </head>
 
-<body class="bg-azul-claro font-inter flex justify-center items-center h-screen">
+<body class="md:w-24 lg:w-full xl:w-full bg-azul-claro font-inter flex justify-center items-center h-screen md:h-1/4 sm:h-16">
 
-    <main class="flex justify-center px-6 lg:w-3/4">
+    <main class="w-full md:w-24 lg:w-full xl:w-full flex justify-center px-6 md:h-1/4 sm:h-full">
         <!---- Local da logo  bg azul esucuro-->
-        <section class="bg-azul-escuro hidden lg:block w-1/5 rounded-l-lg">
+        <section class="flex flex:col md:flex-row bg-azul-escuro hidden lg:block w-1/5 rounded-l-lg">
             <img class="p-6 m-auto" src="./img/logo.png" alt="logo">
         </section>
 
-        <section class="bg-white p-5 gap-6 flex flex-col rounded-lg lg:w-full justify-center lg:rounded-l-lg">
+        <section class="sm:w-1/5 sm:h-1/5 bg-white p-5 gap-6 flex flex-col rounded-lg lg:w-full justify-center lg:rounded-l-lg">
             <div class="self-center relative group">
                 <img class="p-6 m-auto" src="img/gsuite.png">
             </div>
 
-            <div class="bg-white p-5 gap-6 flex flex-col rounded-lg lg:w-full justify-center lg:rounded-l-lg">
+            <div class="sm:w-1/5 sm:h-1/5 bg-white p-5 gap-6 flex flex-col rounded-lg lg:w-full justify-center lg:rounded-l-lg">
 
                 <!--DIV NOME -->
-                <div class="flex p-5 justify-start flex-wrap">
+                <div class="sm:w-1/5 sm:h-1/5 xl:w-full xl:h-full flex p-5 justify-start flex-wrap">
                     <label class="gap-5 font-inter block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                             Nome
                     </label>
@@ -80,14 +80,14 @@
                     <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Descreva seu problema aqui..."></textarea>
 
             </div>
-                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                <div class="md:w-1/3 px-3 mb-6 md:mb-0">
 
                 </div>
-                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                    <label class="flex justify-start flex-wrap">
+                <div class="sm:w-1/2  md:w-24 lg:w-full xl:w-full px-3 mb-6 md:mb-0 md:h-1/4 sm:h-16">
+                    <label class="sm:w-1/2 md:w-24 lg:w-full xl:w-full flex justify-start flex-wrap md:h-1/4 sm:h-16">
                         Categoria
                     </label>
-                    <div class="w-full relative">
+                    <div class="sm:w-1/2  md:w-1/2 lg:w-1/2 xl:w-1/2 relative md:h-1/4  sm:h-16">
                         <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                             <option>Não consigo fazer login</option>
                             <option>Mudar acesso</option>
