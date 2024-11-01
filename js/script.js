@@ -38,7 +38,7 @@ const tipoDeErro = [
 
 const mensagens = {
     nome: {
-        valueMissing: "O campo nome não pode estar vazio.",
+        valueMissing: "Por favor, preencha seu nome.",
         patternMismatch: "Por favor, preencha um nome válido.",
         tooShort: "Por favor, coloque seu nome completo."
     },
